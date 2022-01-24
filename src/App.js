@@ -7,8 +7,7 @@ import NotDefined from './components/NotDefined/NotDefined';
 function App() {
     return (
         <div className='conatainer z-depth-3'>
-            <h1>fdsf</h1>
-            <Router basename='/todolist-react-firebase'>
+            <Router>
                 <Routes>
                     <Route path='/' element={<Welcome />} />
                     <Route path='/homepage' element={<HomePage />} />
