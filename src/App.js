@@ -7,7 +7,7 @@ import NotDefined from './components/NotDefined/NotDefined';
 function App() {
     return (
         <div className='conatainer z-depth-3'>
-            <HashRouter>
+            <HashRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route path='/' element={<Welcome />} />
                     <Route path='/homepage' element={<HomePage />} />
