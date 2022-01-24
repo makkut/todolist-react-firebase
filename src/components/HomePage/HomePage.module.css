@@ -1,0 +1,44 @@
+.container {
+    width: 550px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffa700;
+    margin-top: 5px;
+    border-radius: 15px;
+    position: relative;
+    overflow-wrap: anywhere;
+}
+
+.taskButtons {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.taskCheck {
+    display: flex;
+    position: absolute;
+    left: 10px;
+}
+.inputTask {
+    display: flex;
+    position: relative;
+}
+.addConfirmButton {
+    display: flex;
+    position: absolute;
+    left: 20px;
+}
+.buttonOut {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    padding-top: 10px;
+}
