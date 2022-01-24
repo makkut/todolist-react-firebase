@@ -137,7 +137,7 @@ const HomePage = () => {
                             </i>
                         </a>
                     )}
-                    <h4>{todo.todo}</h4>
+                    <h5>{todo.todo}</h5>
                     <div className={s.taskButtons}>
                         <div onClick={() => handleUpdate(todo)}>
                             <a

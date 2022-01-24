@@ -5,3 +5,13 @@
     margin: 0 auto;
     border-radius: 15px;
 }
+@media (max-width: 610px) {
+    .conatainer {
+        width: 97%;
+        margin: 0 auto;
+        min-height: 520px;
+    }
+    .row .col.s6 {
+        width: 100%;
+    }
+}

@@ -42,3 +42,16 @@
 h2 {
     padding-top: 10px;
 }
+@media (max-width: 610px) {
+    .container {
+        width: 100%;
+    }
+    .task {
+        width: 97%;
+        margin: 3px auto;
+    }
+    .inputTask {
+        width: 95% !important;
+        margin: 0 auto !important;
+    }
+}
